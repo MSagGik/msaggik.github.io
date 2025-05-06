@@ -1029,6 +1029,13 @@ p.years {
 		font-size: 3.5rem;
 	}
 
+	h1 .color-default,
+	h1 .color-green,
+	h1 .color-orange,
+	h1 .color-coral {
+		font-size: 3.5rem;
+	}
+
 	h1.develop-name {
 		font-family: 'Geologica', sans-serif;
 		font-weight: 300;
@@ -1178,6 +1185,15 @@ p.years {
 	}
 
 	h1 {
+		font-size: 2.21rem;
+		line-height: 120%;
+		max-width: 100%;
+	}
+
+	h1 .color-default,
+	h1 .color-green,
+	h1 .color-orange,
+	h1 .color-coral {
 		font-size: 2.21rem;
 		line-height: 120%;
 		max-width: 100%;
