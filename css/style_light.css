@@ -672,14 +672,6 @@ video {
 	margin-top: 8vh;
 }
 
-.email {
-	font-family: 'Geologica', sans-serif;
-	color: #252529;
-	font-weight: 600;
-	font-size: 3rem;
-	cursor: pointer;
-}
-
 /* project */
 .dev-page {
 	padding: 18vh 0;
@@ -762,8 +754,19 @@ video {
 	display: flex;
 }
 
+.grid-about {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	align-content: stretch;
+	align-items: flex-start;
+}
+
 .image-avatar {
-	width: 90%;
+	width: 100%;
 	max-width: 350px;
 	height: auto;
 }
@@ -821,8 +824,8 @@ video {
 h1.develop-name {
 	font-family: 'Geologica', sans-serif;
 	font-weight: 300;
-	padding: 0;
 	font-size: 3.5rem;
+	padding-left: 50px;
 }
 
 h1.title-about-experience {
@@ -860,6 +863,11 @@ h1.title-about-contacts {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	word-break: break-word;
+}
+
+.list-contact:hover {
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .description-about {
@@ -1048,16 +1056,19 @@ p.years {
 		gap: 30px;
 	}
 
+	.grid-about {
+		align-content: stretch;
+		padding: 0px 50px 0px 50px;
+	}
+
 	.image-avatar {
-		display: block;
+		display: flex;
 		margin: 0 auto 0 auto;
 	}
 
 	h1.develop-name {
-		font-family: 'Geologica', sans-serif;
-		font-weight: 300;
-		padding: 0 50px;
-		font-size: 2.3rem;
+		padding-left: 30px;
+		font-size: clamp(2.1rem, 2.3vw + 1rem, 3.5rem);
 	}
 
 	h1.title-about-experience {
@@ -1193,7 +1204,7 @@ p.years {
 	}
 
 	.about-dev {
-		padding: 25vh 0 8vh 0;
+		padding: 21vh 0 8vh 0;
 	}
 
 	/* footer */
@@ -1372,26 +1383,28 @@ p.years {
 		margin-top: 8vh;
 	}
 
-	.email {
-		font-size: 1.7rem;
-	}
-
 	/* about */
 	.about-container-header-main {
 		grid-template-columns: repeat(1, 1fr);
 		gap: 30px;
 	}
 
+	.grid-about {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
 	.image-avatar {
-		display: block;
+		display: flex;
+		max-width: 460px;
+		align-self: flex-start;
+		padding: 20px;
 		margin: 0 auto 0 auto;
 	}
 
 	h1.develop-name {
-		font-family: 'Geologica', sans-serif;
-		font-weight: 300;
+		font-size: 2.1rem;
 		padding: 0 20px;
-		font-size: 1.9rem;
 	}
 
 	h1.title-about-experience {
@@ -1464,7 +1477,7 @@ p.years {
 	}
 
 	.about-dev {
-		padding: 25vh 0 8vh 0;
+		padding: 10vh 0 8vh 0;
 	}
 
 	/* project */
