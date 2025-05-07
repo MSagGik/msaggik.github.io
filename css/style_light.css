@@ -1396,7 +1396,7 @@ p.years {
 
 	.image-avatar {
 		display: flex;
-		max-width: 460px;
+		max-width: 350px;
 		align-self: flex-start;
 		padding: 20px;
 		margin: 0 auto 0 auto;
