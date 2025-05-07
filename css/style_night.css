@@ -424,6 +424,26 @@ video {
 	align-content: stretch;
 }
 
+.grid-no-wrap-reight {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	align-content: stretch;
+}
+
+.grid-no-wrap-left {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	align-content: stretch;
+}
+
 .dev-item-app {
 	width: 35%;
 	margin-bottom: 100px;
@@ -587,6 +607,7 @@ video {
 .dev-item-info {
 	text-align: center;
 	margin-top: 24px;
+	max-width: 420px;
 }
 
 .dev-item-description {
@@ -1110,6 +1131,10 @@ p.years {
 		justify-content: start;
 	}
 
+	.dev-item-info {
+		justify-content: center;
+	}
+
 	.dev-item-app {
 		align-self: flex-start;
 		width: auto;
@@ -1142,10 +1167,6 @@ p.years {
 	.dev-item-image-connect {
 		max-width: 250px;
 		max-height: 250px;
-	}
-
-	.dev-item-connect-default {
-		display: none;
 	}
 
 	.dev-item-server-default {
@@ -1242,8 +1263,15 @@ p.years {
 		padding: 18vh 0 8vh 0;
 	}
 
-	.grid {
+	.grid,
+	.grid-no-wrap-reight,
+	.grid-no-wrap-left {
 		padding: 20px;
+	}
+
+	.dev-item-info {
+		max-width: 767px;
+		justify-content: center;
 	}
 
 	.dev-item-app,
