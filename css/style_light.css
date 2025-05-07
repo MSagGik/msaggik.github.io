@@ -762,11 +762,12 @@ video {
 	max-width: 1200px;
 	margin: 0 auto;
 	align-content: stretch;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .image-avatar {
 	width: 100%;
+	object-fit: cover;
 	max-width: 350px;
 	height: auto;
 }
@@ -1204,7 +1205,7 @@ p.years {
 	}
 
 	.about-dev {
-		padding: 21vh 0 8vh 0;
+		padding: 16vh 0 8vh 0;
 	}
 
 	/* footer */
