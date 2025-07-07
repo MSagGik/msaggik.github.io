@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Maxim Sagaciyang</title>
+
+	<meta name="title" content="Maxim Sagaciyang Android Developer" />
+	<meta name="author" content="Maxim Sagaciyang" />
+	<meta name="description" content="Development of mobile applications for Android, integration with IoT and AI" />
+	<meta name="keywords" content="Sagaciyan, Sagaciyang, mobile, develop, ux, ui, graphic, design, experience, android, product, freelance, interface" />
+
+	<meta name="robots" content="index, follow">
+
+	<meta property="og:title" content="Maxim Sagaciyang Android Developer">
+	<meta property="og:site_name" content="Maxim Sagaciyang Android Developer">
+	<meta property="og:description" content="Development of mobile applications for Android, integration with IoT and AI">
+	<meta property="og:image" content="https://avatars.githubusercontent.com/u/108148690">
+	<meta property="og:email" content="dev.saggik@yandex.com">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://msaggik.github.io">
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:country-name" content="RU">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Maxim Sagaciyang Android Developer">
+	<meta name="twitter:description" content="Development of mobile applications for Android, integration with IoT and AI">
+	<meta name="twitter:url" content="https://msaggik.github.io">
+	<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/108148690">
+
+	<link rel="manifest" href="../media/manifest.json">
+
+	<link rel="stylesheet" href="../css/style_light.css" id="theme">
+</head>
+
+<body>
+
+	<div class="header header-anim">
+		<a href="../index.html" class="button-menu" data-lang="main_page-author">Maxim Sagaciyang</a>
+		<div class="header-setting-column">
+			<a href="../menu/about.html" class="button-menu button-left" data-lang="main_page-about">About</a>
+			<div class="header-setting-row button-left">
+				<img src="../media/settings/ic_light_theme.webp" alt="Theme Image" class="theme-image theme-clickable"
+					data-theme-image>
+				<div class="lang-switcher">
+					<button class="language-buttons" data-lang-btn="ru">RU</button>
+					<button class="language-buttons" data-lang-btn="en">EN</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="dev-page menu delay_5s">
+		<div class="dev-page-content">
+			<h1>SmartHome App</h1>
+			<h3 class="text" data-lang="smart-home-description-short">
+				Android-приложение для управления умным домом через Bluetooth с поддержкой IoT-устройств на базе Atmega328p
+			</h3>
+			<p>
+				<a class="header-text">SmartHome App</a> — 
+				<a class="header-text-base" data-lang="smart-home-description-a">это современное решение для управления климатом, освещением и датчиками в системе умного дома. Проект включает Android-приложение, разработанную Bluetooth-библиотеку и прошивку для микроконтроллера с двунаправленным JSON-протоколом</a> 
+			</p>
+			<h5 class="text" data-lang="smart-home-description-bt">Основные функции:</h5>
+			<p>
+				• <a class="header-text-base" data-lang="smart-home-description-b1">Мониторинг температуры, влажности и давления через Bluetooth SPP</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-b2">Настройка RGB-подсветки с режимами: моноцвет, композиция из палитры изображений (с использованием Palette API), автоматические сценарии</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-b3">Акустическая обратная связь и LED-индикация на устройстве</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-b4">Анализ изображений для генерации цветовых схем освещения</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-b5">Реактивное обновление данных через SharedFlow и Coroutines</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-b6">Автоматическое отключение ресивера при простое</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-b7">Поддержка светлой/тёмной тем, трёх языков (русский, английский, китайский)</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-b8">Вертикальный и горизонтальный режимы экрана</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-b9">Анимации и адаптивная вёрстка (FlexboxLayout, ViewPager2)</a><br>
+			</p>
+			<h5 class="text" data-lang="smart-home-description-ct">
+				Технологический стек:
+			</h5>
+			<p data-lang="smart-home-description-c">
+				• <a class="header-text-base" data-lang="smart-home-description-c1">Языки: Kotlin (Android), C/C++ (прошивка Atmega328p)</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-c2">Архитектура: Clean Architecture + MVVM, многомодульная структура</a><br>
+				• <a class="header-text-base">Koin (Dependency Injection), Room, SharedPreferences</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-c3">Собственная Bluetooth-библиотека с поддержкой потоковой передачи данных</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-c4">Bluetooth SPP, сокеты</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-c5">Протокол взаимодействия на основе JSON с оптимизацией для микроконтроллеров (примеры сообщений: LED_MONO, TIME_UPDATE, COM_ENABLED)</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-c6">Прошивка устройства с обработкой сенсоров и управлением RGB-лентой</a><br>
+				• <a class="header-text-base">Glide, Palette API, Jetpack Navigation Component</a><br>
+				• <a class="header-text-base" data-lang="smart-home-description-c7">Gradle + Proguard для оптимизации сборки</a>
+			</p>
+			<h5 class="text" data-lang="smart-home-description-dt">Репозиторий приложения:</h5>
+			<p>
+				<a href="https://github.com/MSagGik/SmartHomeApp" class="no-wrap-link-c">SmartHome App (https://github.com/MSagGik/SmartHomeApp)</a>
+			</p>
+			<p>
+				<a class="header-text-base" data-lang="smart-home-description-e">Проект демонстрирует комплексный подход к созданию IoT-решений: от проектирования аппаратной части до реализации реактивного интерфейса с поддержкой современных Android-технологий</a>
+			</p>
+		</div>
+
+		<img src="../media/smarthome/smart_home_light_night_page_a_ru.webp" class="dev-page-image" data-lang-image="smart-home-description-image-a">
+		<div class="video-of-phone-screen">
+			<div class="video-of-phone-screen-inner">
+				<video poster="../media/smarthome/video/smart_home_album_ru.webp" preload="none" autoplay loop
+					muted playsinline class="video-content" data-lang-video="smart-home-description-video">
+					<source src="../media/smarthome/video/smart_home_video_ru.mp4" type="video/mp4">
+				</video>
+				<div class="device-phone-screen"></div>
+			</div>
+		</div>
+		<img src="../media/smarthome/smart_home_light_page_b_ru.webp" class="dev-page-image" data-lang-image="smart-home-description-image-b">
+		<img src="../media/smarthome/smart_home_light_page_c_ru.webp" class="dev-page-image" data-lang-image="smart-home-description-image-c">
+		<img src="../media/smarthome/smart_home_light_page_d_ru.webp" class="dev-page-image" data-lang-image="smart-home-description-image-d">
+		<img src="../media/smarthome/smart_home_light_page_e_ru.webp" class="dev-page-image" data-lang-image="smart-home-description-image-e">
+		<img src="../media/smarthome/smart_home_light_night_page_f.webp" class="dev-page-image">
+		<img src="../media/smarthome/smart_home_light_page_g.webp" class="dev-page-image">
+		<img src="../media/smarthome/smart_home_light_page_h.webp" class="dev-page-image">
+
+		<div class="back-to-apps">
+			<a href="../index.html" data-lang="smart-home-description-g">Посмотреть другие приложения</a>
+		</div>
+	</div>
+
+	<footer class="footer-center menu delay_11s" data-lang="main_page-about-me-click-c">© Maxim Sagaciyang 2025</footer>
+
+	<script src="../scripts/theme.js"></script>
+	<script src="../scripts/lang.js"></script>
+</body>
+</html>
